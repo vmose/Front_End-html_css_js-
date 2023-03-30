@@ -4,13 +4,19 @@ import './index.css';
 import Card from './Card';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons'
+import {robots} from '/.robots'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Card/>
-  </React.StrictMode>
+   <div> 
+   <Card/>
+   <Card/>
+   <Card/>
+   </div>
 );
+  
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
