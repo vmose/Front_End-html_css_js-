@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Hello from './Hello';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Hello greeting = {'What ' + 'it do'}/>
+    <App greeting = {'What ' + 'it do'}/>
   </React.StrictMode>
 );
 
