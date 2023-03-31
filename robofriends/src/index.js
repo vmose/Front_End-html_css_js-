@@ -4,11 +4,12 @@ import './index.css'
 import CardList from './CardList'
 import reportWebVitals from './reportWebVitals'
 import 'tachyons'
+import App from './App'
 import {robots} from './robots'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-   <CardList robots={robots}/>
+   <App/>
 );
   
 
