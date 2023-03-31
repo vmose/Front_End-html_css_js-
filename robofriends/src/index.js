@@ -1,18 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Card from './Card';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import './index.css'
+import CardList from './CardList'
+import reportWebVitals from './reportWebVitals'
 import 'tachyons'
-import {robots} from '/.robots'
+import {robots} from './robots'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-   <div> 
-   <Card/>
-   <Card/>
-   <Card/>
-   </div>
+   <CardList robots={robots}/>
 );
   
 
