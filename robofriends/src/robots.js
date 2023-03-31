@@ -1,32 +1,32 @@
 export const robots = [
     {
       id: 1,
-      name: 'Leanne Graham',
-      username: 'Bret',
-      email: 'Sincere@april.biz'
+      name: 'Gregory Oak-carry',
+      username: 'Greg',
+      email: 'cousin@family.tree'
     },
     {
       id: 2,
-      name: 'Ervin Howell',
-      username: 'Antonette',
-      email: 'Shanna@melissa.tv'
+      name: 'Warindi GladEase',
+      username: 'War1nd1',
+      email: 'bezzie@broski.fam'
     },
     {
       id: 3,
-      name: 'Clementine Bauch',
-      username: 'Samantha',
-      email: 'Nathan@yesenia.net'
+      name: 'Mbiru MRay',
+      username: 'Mar1',
+      email: 'brother@homie.4life'
     },
     {
       id: 4,
-      name: 'Patricia Lebsack',
-      username: 'Karianne',
-      email: 'Julianne.OConner@kory.org'
+      name: 'Mona Mozay',
+      username: 'Brend_AH',
+      email: 'sharedspawnpoint.sister@nkt'
     },
     {
       id: 5,
-      name: 'Chelsey Dietrich',
-      username: 'Kamren',
+      name: 'Obiri Jeray',
+      username: 'Th0nu',
       email: 'Lucio_Hettinger@annie.ca'
     },
     {
