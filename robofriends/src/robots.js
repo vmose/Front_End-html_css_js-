@@ -19,7 +19,7 @@ export const robots = [
     },
     {
       id: 4,
-      name: 'Mona Mozay',
+      name: 'Mrs. Mourner Agesa',
       username: 'Brend_AH',
       email: 'sharedspawnpoint.sister@nkt'
     },
@@ -31,19 +31,19 @@ export const robots = [
     },
     {
       id: 6,
-      name: 'Mrs. Dennis Schulist',
+      name: 'Mr. Jay Benja',
       username: 'Leopoldo_Corkery',
-      email: 'Karley_Dach@jasper.info'
+      email: 'day1_amigo@wayback.info'
     },
     {
       id: 7,
-      name: 'Kurtis Weissnat',
+      name: 'Ericcson Tabitha',
       username: 'Elwyn.Skiles',
       email: 'Telly.Hoeger@billy.biz'
     },
     {
       id: 8,
-      name: 'Nicholas Runolfsdottir V',
+      name: 'WowWeeRah Kadogo G',
       username: 'Maxime_Nienow',
       email: 'Sherwood@rosamond.me'
     },
