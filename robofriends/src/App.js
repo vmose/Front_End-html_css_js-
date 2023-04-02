@@ -25,7 +25,6 @@ render(){
     })
     return  (<div className="tc">
         <h1>Robofriends©</h1>
-        <p >by Victor Mose</p>
         <Searchbox searchchange ={this.onSearchChange} />
         <Cardlist robots={filteredrobots}/>  
         </div>
