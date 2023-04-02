@@ -39,25 +39,25 @@ export const robots = [
       id: 7,
       name: 'Ericcson Tabitha',
       username: 'Elwyn.Skiles',
-      email: 'Telly.Hoeger@billy.biz'
+      email: 'sassy.friend@bro.biz'
     },
     {
       id: 8,
       name: 'WowWeeRah Kadogo G',
       username: 'Maxime_Nienow',
-      email: 'Sherwood@rosamond.me'
+      email: 'tiny@friend.me'
     },
     {
       id: 9,
-      name: 'Glenna Reichert',
+      name: 'Joy PeanutsAnd',
       username: 'Delphine',
-      email: 'Chaim_McDermott@dana.io'
+      email: 'oddball@YetLikeable.strange'
     },
     {
       id: 10,
-      name: 'Clementina DuBuque',
-      username: 'Moriah.Stanton',
-      email: 'Rey.Padberg@karina.biz'
+      name: 'ワトゥリ',
+      username: 'Delphine',
+      email: '53-44-73-74@crush.soon'
     }
   ];
   
