@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import Cardlist from "./CardList"
 import Searchbox from './Searchbox'
 import './App.css'
+import Scroll from "./Scroll"
 
 // https://jsonplaceholder.typicode.com/
 
@@ -35,7 +36,7 @@ render(){
     return  (<div className="tc">
         <h1>Robofriends©</h1>
         <Searchbox searchchange ={this.onSearchChange} />
-        <Cardlist robots={filteredrobots}/>  
+        <Scroll> <Cardlist robots={filteredrobots}/> </Scroll>
         </div>
         )
 }
