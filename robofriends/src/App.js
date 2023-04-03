@@ -36,10 +36,11 @@ render(){
     return  (<div className="tc">
         <h1>Robofriends©</h1>
         <Searchbox searchchange ={this.onSearchChange} />
-        <Scroll> <Cardlist robots={filteredrobots}/> </Scroll>
+     <Scroll><Cardlist robots={filteredrobots}/> </Scroll>
         </div>
         )
 }
 }
 }
 export default App
+
