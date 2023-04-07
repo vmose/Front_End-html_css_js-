@@ -35,6 +35,7 @@ render(){
         else {
     return  (<div className="tc">
         <h1>Robofriends©</h1>
+        <p1 classname='tc'>an app by Victor Mose</p1>
         <Searchbox searchchange ={this.onSearchChange} />
      <Scroll><Cardlist robots={filteredrobots}/> </Scroll>
         </div>
