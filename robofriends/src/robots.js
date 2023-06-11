@@ -58,6 +58,18 @@ export const robots = [
       name: 'ワトゥリ',
       username: 'Delphine',
       email: '53-44-73-74@crush.soon'
+    },
+    {
+      id: 11,
+      name: 'Anna Borshun',
+      username: 'Maxime_Nienow',
+      email: 'fetus@deletus.xd'
+    },
+    {
+      id: 11,
+      name: 'Tess Tickles',
+      username: 'Maxime_Nienow',
+      email: 'scrot@um.dn'
     }
   ];
   
