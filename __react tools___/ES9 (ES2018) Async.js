@@ -34,4 +34,16 @@ const films = [
           console.log('ooooooops', err);
         }
       }
+      // using for of loop with async await
+      const getData2 = async function() {
+        const arrayOfPromises = urls.map(url => fetch(url));
+        for (const request of arrayOfPromises) {
+          console.log(request);
+        }
+      
+        for await (const request of arrayOfPromises) {
+          const data = await request.json();
+          console.log(data)
+        }
+      }
       
