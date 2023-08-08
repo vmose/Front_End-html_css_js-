@@ -1,5 +1,5 @@
 import './App.css';
-import Tilt from 'react-parallax-tilt';
+import { Tilt } from 'react-parallax-tilt';
 
 function App() {
   return (
