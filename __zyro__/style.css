@@ -9,7 +9,6 @@
 
 nav{
     height: 80px;
-    background: #CECECE;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,11 +35,6 @@ nav a:hover::before{
 
 .join-zyro{
     border-radius: 50px;
-    background: #CECECE;
-}
-
-.hero{
-    background: #CECECE;
 }
 
 .column-center{
