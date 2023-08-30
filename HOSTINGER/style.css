@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    font-style: #333;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px ;
+}
+
+.column-left{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0.5rem;
+    
+}
+
+.column-left p{
+    font-size: 0.75rem;
+}
+
+.column-left h1{
+    font-size: 1rem;
+}
+
+
+.countdown {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+  }
