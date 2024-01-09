@@ -1,51 +1,66 @@
-*{
+* {
     padding: 0;
-    margin:0; 
-    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     background: #CECECE;
-
 }
 
-nav{
+body {
+    line-height: 1.6; /* Improves overall readability */
+}
+
+nav {
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px; /* Added padding for better spacing */
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #000;
+    transition: color 0.3s ease; /* Smooth transition on color change */
 }
 
-nav a:hover{
+nav a:hover {
     font-weight: 550;
-    color:#ff04c9
+    color: #ff04c9;
 }
 
-nav a:hover::before{
+nav a:hover::before {
     content: '· ';
 }
 
-.logo{
+.logo {
     font-weight: bold;
-    transform: rotate(-12deg)
+    transform: rotate(-12deg);
 }
 
-.join-zyro{
+.join-zyro {
     border-radius: 50px;
+    /* Add more styling if needed */
 }
 
-.column-center{
+.column-center {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 20px; /* Added padding for better spacing */
 }
 
-.get-started{
+.get-started {
     border-radius: 50px;
     background: #ff04c9;
     color: #fff;
+    padding: 10px 20px; /* Added padding for better button appearance */
+    cursor: pointer; /* Add cursor:pointer for better UX */
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+}
+
+.get-started:hover {
+    background: #fff;
+    color: #ff04c9;
 }
