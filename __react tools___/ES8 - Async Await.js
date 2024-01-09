@@ -42,12 +42,17 @@ get_data();
 
 
 // promise.all  async with catch error
-async function get_data(){
-    try{const [users,posts,albums] = await Promise.all(urls.map(url =>
-        fetch(url).then(resp => resp.json)
-    ));
-    console.log('users',users)
-    console.log('posts',posts)
-    console.log('albums',albums) 
-} catch (err) {console.log('oops', err)}  }
+async function get_data() {
+    try {
+        const [users, posts, albums] = await Promise.all(urls.map(url =>
+            fetch(url).then(resp => resp.json())
+        ));
+        console.log('users', users);
+        console.log('posts', posts);
+        console.log('albums', albums);
+    } catch (err) {
+        console.log('oops', err);
+    }
+}
+
     
