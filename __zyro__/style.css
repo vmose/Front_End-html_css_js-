@@ -1,13 +1,14 @@
+/* Resetting box-sizing and applying a global border-box */
 * {
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    background: #CECECE;
 }
 
 body {
-    line-height: 1.6; /* Improves overall readability */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #CECECE;
+    color: #333; /* Adjusted default text color for better readability */
 }
 
 nav {
@@ -15,17 +16,18 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px; /* Added padding for better spacing */
+    padding: 0 20px;
+    background: #fff; /* Added a white background for the navigation bar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow for depth */
 }
 
 nav a {
     text-decoration: none;
-    color: #000;
-    transition: color 0.3s ease; /* Smooth transition on color change */
+    color: #333;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
-    font-weight: 550;
     color: #ff04c9;
 }
 
@@ -40,7 +42,11 @@ nav a:hover::before {
 
 .join-zyro {
     border-radius: 50px;
-    /* Add more styling if needed */
+    padding: 10px 20px;
+    background: #ff04c9;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 .column-center {
@@ -48,19 +54,38 @@ nav a:hover::before {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px; /* Added padding for better spacing */
+    padding: 20px;
 }
 
 .get-started {
     border-radius: 50px;
+    padding: 10px 20px;
     background: #ff04c9;
     color: #fff;
-    padding: 10px 20px; /* Added padding for better button appearance */
-    cursor: pointer; /* Add cursor:pointer for better UX */
-    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 .get-started:hover {
     background: #fff;
     color: #ff04c9;
+}
+
+.hero {
+    background: #fff;
+    padding: 50px 20px; /* Adjusted padding for better spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styling for text content in the hero section */
+.hero-container h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-container p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
 }
